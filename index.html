@@ -1,124 +1,162 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atividades Pedagógicas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atividades Pedagógicas</title>
 
-  <script src="https://cdn.tailwindcss.com"></script>
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+
+    /* 🎨 plano de fundo infantil em degradê */
+    background: linear-gradient(135deg,#a8e8ff,#ffd6f6,#fff3b0);
+    background-attachment: fixed;
+}
+
+/* container principal */
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align:center;
+}
+
+/* título principal */
+h1{
+    font-size: 26px;
+    margin-bottom:5px;
+}
+
+/* subtítulo */
+h2{
+    font-size:18px;
+    color:#444;
+}
+
+/* grade das apostilas */
+.cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    gap:15px;
+    margin-top:20px;
+}
+
+/* cada card */
+.card{
+    background:white;
+    padding:10px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+}
+
+/* imagens */
+.card img{
+    width:100%;
+    border-radius:12px;
+}
+
+/* botão acessar */
+.btn{
+    display:block;
+    text-decoration:none;
+    background:#ff7ac4;
+    padding:10px;
+    color:white;
+    font-weight:bold;
+    border-radius:20px;
+    margin-top:8px;
+}
+
+</style>
+
 </head>
+<body>
 
-<body class="bg-gray-100">
+<div class="container">
 
-<header class="w-full text-center py-12" style="background:#4da6ff;">
-  <h1 class="text-4xl font-bold text-white">
-    ATIVIDADES PEDAGÓGICAS
-  </h1>
+<h1>ATIVIDADES PEDAGÓGICAS</h1>
+<h2>Atividades para imprimir</h2>
 
-  <p class="text-white text-lg mt-3">
-    Atividades para imprimir ✏️
-  </p>
-</header>
+<div class="cards">
 
-<section class="max-w-7xl mx-auto px-6 py-10">
+<!-- 1 -->
+<div class="card">
+<img src="https://i.imgur.com/Df6rQyH.png">
+<p>Atividades Folclóricas</p>
+<a class="btn" href="#">Acessar</a>
+</div>
 
-  <h2 class="text-center text-3xl font-bold mb-6">
-    Atividades para imprimir
-  </h2>
+<!-- 2 -->
+<div class="card">
+<img src="https://i.imgur.com/mJr2YhB.png">
+<p>Dia da Árvore</p>
+<a class="btn" href="#">Acessar</a>
+</div>
 
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- 3 -->
+<div class="card">
+<img src="https://i.imgur.com/4M2dX0s.png">
+<p>Dia do Soldado</p>
+<a class="btn" href="#">Acessar</a>
+</div>
 
-    <!-- Conhecendo as Vogais -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/vogais.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Conhecendo as Vogais</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
+<!-- 4 -->
+<div class="card">
+<img src="https://i.imgur.com/x0m7f3r.png">
+<p>Meninos – Diversos</p>
+<a class="btn" href="#">Acessar</a>
+</div>
 
-    <!-- Desenhos para Colorir Diversos -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/desenhos-diversos.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Desenhos para Colorir Diversos</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
+<!-- 5 -->
+<div class="card">
+<img src="https://i.imgur.com/0l4FZC8.png">
+<p>Meninas – Diversos</p>
+<a class="btn" href="#">Acessar</a>
+</div>
 
-    <!-- Páscoa -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/pascoa.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Páscoa</h3>
-      <a href="https://pay.monetizze.com.br/KHP449136" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
+<!-- 6 -->
+<div class="card">
+<img src="https://i.imgur.com/4mG1t0Y.png">
+<p>Menino e Menina</p>
+<a class="btn" href="#">Acessar</a>
+</div>
 
-    <!-- Atividades Folclóricas -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/folclore.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Atividades Folclóricas</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
+<!-- 7 -->
+<div class="card">
+<img src="https://i.imgur.com/0O6uIhJ.png">
+<p>Desenhos Halloween</p>
+<a class="btn" href="#">Acessar</a>
+</div>
 
-    <!-- AQUI A MUDANÇA PEDIDA -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/halloween.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Desenhos Halloween</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
+<!-- 8 -->
+<div class="card">
+<img src="https://i.imgur.com/9p3nA3B.png">
+<p>Desenhos Natalinos</p>
+<a class="btn" href="#">Acessar</a>
+</div>
 
-    <!-- Dia da Árvore -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/arvore.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Dia da Árvore</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
+<!-- 9 -->
+<div class="card">
+<img src="https://i.imgur.com/d6o6oQd.png">
+<p>Quero todos os kits</p>
+<a class="btn" href="#">Acessar</a>
+</div>
 
-    <!-- Dia do Soldado -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/soldado.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Dia do Soldado</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
+<!-- 10 -->
+<div class="card">
+<img src="https://i.imgur.com/0k5Q0yF.png">
+<p>Conhecendo as Vogais</p>
+<a class="btn" href="https://pay.monetizze.com.br/KHP449136" target="_blank">
+Acesse agora
+</a>
+</div>
 
-    <!-- Meninos Diversos -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/meninos-diversos.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Meninos – Diversos</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
+</div>
 
-    <!-- Meninas Diversos -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/meninas-diversos.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Meninas – Diversos</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
-
-    <!-- Menino e Menina -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/menino-menina.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Menino e Menina</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
-
-    <!-- Quero Todos os Kits -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/todos-kits.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Quero Todos os Kits</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
-
-    <!-- Desenhos Natalinos -->
-    <div class="bg-white shadow rounded-xl p-4">
-      <img src="imagens/natal.png" class="w-full rounded-lg">
-      <h3 class="font-bold text-xl mt-3">Desenhos Natalinos</h3>
-      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
-    </div>
-
-  </div>
-
-</section>
-
-<footer class="text-center py-6 text-gray-600">
-  © 2026 – Todos os direitos reservados
-</footer>
+</div>
 
 </body>
 </html>
