@@ -1,144 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atividades Pedagógicas</title>
 
-  <style>
-    body {
-      font-family: Arial;
-      background: #f7f7ff;
-      margin: 0;
-    }
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    header {
-      text-align: center;
-      padding: 25px;
-      background: #6b8cff;
-      color: white;
-    }
-
-    button {
-      padding: 10px 18px;
-      font-size: 16px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    h2 {
-      text-align: center;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 15px;
-      padding: 15px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .card {
-      background: white;
-      border-radius: 12px;
-      padding: 10px;
-      text-align: center;
-      box-shadow: 0px 0px 7px #00000020;
-    }
-
-    .card img {
-      width: 90%;
-      height: 140px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-
-    .card p {
-      font-weight: bold;
-    }
-  </style>
 </head>
 
-<body>
+<body class="bg-gray-100">
 
-  <header>
-    <h1>ATIVIDADES PEDAGÓGICAS</h1>
-    <p>Materiais prontos para imprimir e usar em sala de aula</p>
+<header class="w-full text-center py-12" style="background:#4da6ff;">
+  <h1 class="text-4xl font-bold text-white">
+    ATIVIDADES PEDAGÓGICAS
+  </h1>
 
-    <a href="https://pay.monetizze.com.br/KHP449136">
-      <button>Acesse agora</button>
-    </a>
-  </header>
+  <p class="text-white text-lg mt-3">
+    Atividades para imprimir ✏️
+  </p>
+</header>
 
-  <h2>Atividades para imprimir</h2>
+<section class="max-w-7xl mx-auto px-6 py-10">
 
-  <div class="grid">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-    <div class="card">
-      <img src="imagens/vogais.png">
-      <p>Conhecendo as vogais</p>
+    <!-- 1 -->
+    <div class="bg-white shadow rounded-xl p-4">
+      <img src="imagens/vogais.png" class="w-full rounded-lg">
+      <h3 class="font-bold text-xl mt-3">Conhecendo as Vogais</h3>
+      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
     </div>
 
-    <div class="card">
-      <img src="imagens/desenhos-diversos.png">
-      <p>Desenhos para colorir diversos</p>
+    <!-- 2 -->
+    <div class="bg-white shadow rounded-xl p-4">
+      <img src="imagens/desenhos-diversos.png" class="w-full rounded-lg">
+      <h3 class="font-bold text-xl mt-3">Desenhos para Colorir Diversos</h3>
+      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
     </div>
 
-    <div class="card">
-      <img src="imagens/pascoa.png">
-      <p>Páscoa</p>
+    <!-- 3 -->
+    <div class="bg-white shadow rounded-xl p-4">
+      <img src="imagens/pascoa.png" class="w-full rounded-lg">
+      <h3 class="font-bold text-xl mt-3">Páscoa</h3>
+      <a href="https://pay.monetizze.com.br/KHP449136" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
     </div>
 
-    <div class="card">
-      <img src="imagens/folclore.png">
-      <p>Atividades folclóricas</p>
+    <!-- 4 -->
+    <div class="bg-white shadow rounded-xl p-4">
+      <img src="imagens/folclore.png" class="w-full rounded-lg">
+      <h3 class="font-bold text-xl mt-3">Atividades Folclóricas</h3>
+      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
     </div>
 
-    <div class="card">
-      <img src="imagens/desenhos natalinos.png">
-      <p>Primeiro espaço extra</p>
+    <!-- 5 (CORRIGIDO) -->
+    <div class="bg-white shadow rounded-xl p-4">
+      <img src="imagens/halloween.png" class="w-full rounded-lg">
+      <h3 class="font-bold text-xl mt-3">Desenhos Halloween</h3>
+      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
     </div>
 
-    <div class="card">
-      <img src="imagens/arvore.png">
-      <p>Dia da Árvore</p>
+    <!-- 6 -->
+    <div class="bg-white shadow rounded-xl p-4">
+      <img src="imagens/arvore.png" class="w-full rounded-lg">
+      <h3 class="font-bold text-xl mt-3">Dia da Árvore</h3>
+      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
     </div>
 
-    <div class="card">
-      <img src="imagens/soldado.png">
-      <p>Dia do Soldado</p>
+    <!-- 7 -->
+    <div class="bg-white shadow rounded-xl p-4">
+      <img src="imagens/soldado.png" class="w-full rounded-lg">
+      <h3 class="font-bold text-xl mt-3">Dia do Soldado</h3>
+      <a href="#" class="block mt-3 bg-green-600 text-white text-center py-2 rounded">Acessar Agora</a>
     </div>
 
-    <div class="card">
-      <img src="imagens/meninos-diversos.png">
-      <p>Meninos – Diversos</p>
-    </div>
-
-    <div class="card">
-      <img src="imagens/meninas-diversos.png">
-      <p>Meninas – Diversos</p>
-    </div>
-
-    <div class="card">
-      <img src="imagens/menino-menina.png">
-      <p>Menino e Menina</p>
-    </div>
-
-    <div class="card">
-      <img src="imagens/todos-kits.png">
-      <p>Quero todos os kits</p>
-    </div>
-
-    <div class="card">
-      <img src="imagens/natal.png">
-      <p>Desenhos Natalinos</p>
-    </div>
-
-  </div>
-
-</body>
-
-</html>
+    <!-- 8 -->
+    <div class="bg-white shadow rounded-xl p-4">
+      <img src="imagens/meninos-diversos.png" class="w-full rounded-lg">
+      <h3 class="font-bold text-xl mt-3">Meninos – Diversos</h3>
+      <a href="#" class="block mt
